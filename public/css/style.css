@@ -1,0 +1,64 @@
+.hide {
+  display: none;
+}
+
+.active {
+  font-weight: bold;
+  color: rgb(41, 61, 248);
+}
+
+a {
+  text-decoration: none;
+}
+
+nav li {
+  margin-right: 100px;
+  font-size: 22px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0a58ca;
+}
+
+.logo {
+  margin-left: 100px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+main {
+  background-color: rgb(226, 226, 226);
+  min-height: calc(100vh - 64px - 56px);
+}
+
+.form-control {
+  width: 70%;
+}
+
+.alert {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 5px;
+  color: red;
+}
+
+#note {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  resize: none;
+}
+
+.img-lock {
+  display: block;
+  max-width: 30%;
+  min-height: auto;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
